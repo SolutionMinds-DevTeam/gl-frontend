@@ -36,19 +36,6 @@ GrowwLibrary simplifies everything:
 
 ---
 
-## 💬 What Our Clients Say
-
-> “GrowwLibrary has completely changed how we operate. Seat management and attendance used to be a mess — now everything runs like clockwork!”  
-> — **Ravi Sharma**, StudyPoint Library
-
-> “The WhatsApp billing feature is a game-changer! My students love the transparency and I save hours every month on manual tasks.”  
-> — **Pooja Jain**, Scholar’s Study Hub
-
-> “With multi-branch support and real-time reports, I can track performance and growth from anywhere. Highly recommended!”  
-> — **Imran Qureshi**, Focus Library Chain
-
----
-
 ## 🚀 Why Choose GrowwLibrary?
 
 - 🔄 **Automation First**: Stop relying on Excel and manual registers.
