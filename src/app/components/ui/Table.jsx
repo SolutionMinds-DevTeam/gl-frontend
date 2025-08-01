@@ -3,7 +3,7 @@ import { Image } from "./Image"
 
 const Table = ({children,className=''}) => {
     return (
-        <table className={`border w-full ${className}`.trim()}>
+        <table className={`border w-full lasjdf ${className}`.trim()}>
             {children}
         </table>
     )
@@ -54,3 +54,4 @@ const Search = ({searchItem, setSearchItem,formSubmit, className=''}) => {
 
 
 export { Table,Thead,Tbody,Th,Td,Search}   
+
