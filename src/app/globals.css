@@ -1,3 +1,30 @@
 @import "tailwindcss";
 
 
+@font-face {
+  font-family: 'MyFont';
+  src: url('../../public/fonts/American\ Captain.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../../public/fonts/flecto.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnotherFont';
+  src: url('../../public/fonts/Groningen-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FancyFont';
+  src: url('../../public/fonts/qolara-demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
