@@ -7,7 +7,7 @@ import React from 'react'
 const price = () => {
   return (
     <ColContainer>
-      <Container className='md:pl-50'>
+      <Container className='md:pl-50 pt-5'>
         <Image src={imgFile.rupee} className='h-12 w-12 mt-2'/>
 
         <ColContainer className='!w-[80%]'>
@@ -71,7 +71,7 @@ const price = () => {
             </Container>
 
             <Container className='gap-1.5 pt-37'>
-              <Image src={imgFile.checkMark} h='h-5' w='w-5' className=''/>
+              <Image src={imgFile.checkmark} h='h-5' w='w-5' className=''/>
               <p className='text-[14px] w-[85%]'>
                 Perfect for independent libraries just starting out.
               </p>
