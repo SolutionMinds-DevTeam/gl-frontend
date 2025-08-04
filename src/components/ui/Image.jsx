@@ -9,6 +9,8 @@ import linkdin from '../../../public/assets/LinkedIn.svg'
 import whatsapp from '../../../public/assets/WhatsApp.svg'
 import menu from '../../../public/assets/Menu.svg'
 import cancel from '../../../public/assets/Cancel.svg'
+import intelligence from '../../../public/assets/Intelligence.svg'
+import back from '../../../public/assets/back.jpg'
 
 
 
@@ -20,7 +22,9 @@ const imgFile = {
   linkdin: linkdin,
   whatsapp: whatsapp,
   menu: menu,
-  cancel: cancel
+  cancel: cancel,
+  intelligence: intelligence,
+  back: back,
 
 }
 
