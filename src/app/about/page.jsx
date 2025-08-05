@@ -76,7 +76,7 @@ function page() {
             <hr className='border w-[80%] border-[#004571] ' />
 
             <Container className='!w-[80%] gap-10 justify-center'>
-                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5 '>
+                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
                     <div className='w-[150px] h-[150px] bg-gray-200 rounded-[50%] flex justify-center items-center '>Profile Pic</div>
                     <span className='text-2xl text-[#FF7802] font-bold'>ROHIT KUMAR</span>
                     <span className='text-[15px] text-[#004571]'>TECH LEAD & BACKEND DEVELOPER</span>
@@ -99,7 +99,7 @@ function page() {
                     </Container>
                 </div>
 
-                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5 '>
+                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
                     <div className='w-[150px] h-[150px] bg-gray-200 rounded-[50%] flex justify-center items-center '>Profile Pic</div>
                     <span className='text-2xl text-[#FF7802] font-bold'>RUPESH KUMAR</span>
                     <span className='text-[15px] text-[#004571]'>ACCOUNTED & FULLSTACK DEVELOPER</span>
@@ -122,7 +122,7 @@ function page() {
                     </Container>
                 </div>
 
-                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5 '>
+                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
                     <div className='w-[150px] h-[150px] bg-gray-200 rounded-[50%] flex justify-center items-center '>Profile Pic</div>
                     <span className='text-2xl text-[#FF7802] font-bold'>NISHANT KUMAR</span>
                     <span className='text-[15px] text-[#004571]'>MEDIA & MARKETING HEAD</span>
@@ -145,7 +145,7 @@ function page() {
                     </Container>
                 </div>
 
-                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5 '>
+                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
                     <div className='w-[150px] h-[150px] bg-gray-200 rounded-[50%] flex justify-center items-center '>Profile Pic</div>
                     <span className='text-2xl text-[#FF7802] font-bold'>CHANDAN KUMAR</span>
                     <span className='text-[15px] text-[#004571]'>UI/UX & FRONTEND DEVELOPER</span>
@@ -168,7 +168,7 @@ function page() {
                     </Container>
                 </div>
 
-                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5 '>
+                <div className='w-[320px] h-auto bg-white rounded-2xl flex flex-col items-center gap-1.5 p-5  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
                     <div className='w-[150px] h-[150px] bg-gray-200 rounded-[50%] flex justify-center items-center '>Profile Pic</div>
                     <span className='text-2xl text-[#FF7802] font-bold'>AKASH KUMAR</span>
                     <span className='text-[15px] text-[#004571]'>FRONTEND DEVELOPER</span>

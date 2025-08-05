@@ -5,7 +5,7 @@ import { ColContainer, Container, LayoutContainer } from '../ui/Container'
 
 function Footer() {
   return (
-    <ColContainer className='px-0 lg:!px-[10%] lg:py-12 bg-[#F8FAFC] '>
+    <ColContainer className='px-0 lg:!px-[10%] lg:py-14 bg-[#F8FAFC] mt-4'>
       <LayoutContainer
         classNameLeft='lg:!w-[60%]'
         classNameRight='lg:!w-[40%]'
