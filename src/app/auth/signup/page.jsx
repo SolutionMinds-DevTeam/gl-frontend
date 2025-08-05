@@ -1,5 +1,6 @@
 import { ColContainer, Container } from '@/components/ui/Container'
 import { Image, imgFile } from '@/components/ui/Image'
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
@@ -88,12 +89,17 @@ const page = () => {
             <button className='bg-[#004571] outline-none text-[#FFFFFF] text-[20px] py-2.5 rounded-[8px]'>Sign Up</button>
           </ColContainer>
 
+          <Container className='max-w-[340px] items-center justify-center gap-1'>
+            <p className='text-[12px]'>Click for login !</p>
+            <Link href='/auth/login' className='text-[14px] font-semibold hover:text-[#FF7802]'>Login</Link>
+          </Container>
+          
         </ColContainer>
 
         <ColContainer className='max-w-[40%] hidden md:block'>
           <Image src={imgFile.signuppageimage} h='h-[80%]' w='w-[80%]'/>
         </ColContainer>
-        
+
       </Container>
 
     </ColContainer>

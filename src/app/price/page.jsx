@@ -19,7 +19,7 @@ const price = () => {
       </Container>
 
       <Container className='justify-center gap-15 pt-8'>
-        <ColContainer className='bg-[#FFFFFF] !w-[300px] rounded-[16px]'>
+        <ColContainer className='bg-[#FFFFFF] !w-[320px] rounded-[16px]  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
           <Container className='items-center gap-1 pl-15'>
             <Image src={imgFile.add1}/>
             <h4 className='text-[20px] font-bold'>Basic Plan</h4>
@@ -70,7 +70,7 @@ const price = () => {
               </p>
             </Container>
 
-            <Container className='gap-1.5 pt-37'>
+            <Container className='gap-1.5 pt-35'>
               <Image src={imgFile.checkmark} h='h-5' w='w-5' className=''/>
               <p className='text-[14px] w-[85%]'>
                 Perfect for independent libraries just starting out.
@@ -79,7 +79,7 @@ const price = () => {
           </ColContainer>
         </ColContainer>
 
-        <ColContainer className='bg-[#FFFFFF] !w-[300px] rounded-[16px]'>
+        <ColContainer className='bg-[#FFFFFF] !w-[320px] rounded-[16px]  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
           <Container className='items-center gap-1 pl-15'>
             <Image src={imgFile.add2}/>
             <h4 className='text-[20px] font-bold'>Pro Plan</h4>
@@ -146,7 +146,7 @@ const price = () => {
               </p>
             </Container>
 
-            <Container className='gap-1.5 pt-6'>
+            <Container className='gap-1.5 pt-8'>
               <Image src={imgFile.star} h='h-5' w='w-5' className=''/>
               <p className='text-[14px] w-[85%]'>
                 Best value for growing study libraries and mid-size operations.
@@ -155,7 +155,7 @@ const price = () => {
           </ColContainer>
         </ColContainer>
 
-        <ColContainer className='bg-[#FFFFFF] !w-[300px] rounded-[16px]'>
+        <ColContainer className='bg-[#FFFFFF] !w-[320px] rounded-[16px]  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
           <Container className='items-center gap-1 pl-15'>
             <Image src={imgFile.add3}/>
             <h4 className='text-[20px] font-bold'>Enterprise Plan</h4>
@@ -215,7 +215,7 @@ const price = () => {
               </p>
             </Container>
 
-            <Container className='gap-1.5 pt-20'>
+            <Container className='gap-1.5 pt-18'>
               <Image src={imgFile.launchpad} h='h-5' w='w-5' className=''/>
               <p className='text-[14px] w-[85%]'>
                 Perfect for independent libraries just starting out.

@@ -20,6 +20,10 @@ import login from '../../../public/assets/Login.svg'
 import passwordmanager from '../../../public/assets/Password manager,login.svg'
 import google from '../../../public/assets/Google.svg'
 import signuppageimage from '../../../public/assets/Signup page photo.svg'
+import intelligence from '../../../public/assets/Intelligence.svg'
+import back from '../../../public/assets/back.jpg'
+
+
 
 const imgFile = {
   logo: logo,
@@ -41,6 +45,9 @@ const imgFile = {
   passwordmanager: passwordmanager,
   google: google,
   signuppageimage: signuppageimage,
+  intelligence: intelligence,
+  back: back,
+
 }
 
 const Image = ({ src, w = 'w-8', h = 'h-auto', className = '', alt = '', ...props }) => {

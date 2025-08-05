@@ -1,5 +1,6 @@
 import { ColContainer, Container } from '@/components/ui/Container'
 import { Image, imgFile } from '@/components/ui/Image'
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
@@ -74,7 +75,7 @@ const page = () => {
 
           <Container className='max-w-[340px] items-center justify-center gap-1'>
             <p className='text-[12px]'>Don’t have an account?</p>
-            <p className='text-[14px] font-semibold'>Sign Up</p>
+            <Link href='/auth/signup' className='text-[14px] font-semibold hover:text-[#FF7802]'>Sign Up</Link>
           </Container>
 
         </ColContainer>
