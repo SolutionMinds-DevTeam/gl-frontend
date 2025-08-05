@@ -190,11 +190,7 @@ function page() {
                         </a>
                     </Container>
                 </div>
-
-
-
             </Container>
-
         </ColContainer>
     )
 }
