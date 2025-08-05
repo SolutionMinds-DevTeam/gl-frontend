@@ -5,7 +5,7 @@ import { ColContainer, Container, LayoutContainer } from '../ui/Container'
 
 function Footer() {
   return (
-    <ColContainer className='px-0 lg:!px-[10%] lg:py-12'>
+    <ColContainer className='px-0 lg:!px-[10%] lg:py-14 bg-[#F8FAFC] mt-4'>
       <LayoutContainer
         classNameLeft='lg:!w-[60%]'
         classNameRight='lg:!w-[40%]'
@@ -16,7 +16,7 @@ function Footer() {
               <h1 className='text-4xl lg:text-5xl font-bold'>Groww-Library</h1>
             </div>
 
-            <p className='py-1 px-5 text-sm'>Built for modern private libraries, GrowwLibrary helps you manage members, shifts, and revenue with ease. It supports biometric or QR-based attendance, detailed reporting, and expense tracking — all in one powerful dashboard.</p>
+            <p className='py-1 px-5 font-light text-[12px]'>Built for modern private libraries, GrowwLibrary helps you manage members, shifts, and revenue with ease. It supports biometric or QR-based attendance, detailed reporting, and expense tracking — all in one powerful dashboard.</p>
           </ColContainer>
         }
 
@@ -66,7 +66,6 @@ function Footer() {
                   <Image src={imgFile.linkdin} w="w-10" h="h-10" />
                 </a>
               </ColContainer>
-
             </ColContainer>
           </div>
         }
@@ -74,6 +73,7 @@ function Footer() {
       />
 
       <hr />
+      <span className='text-[13px] text-center'>@Copyright groww liabrary</span>
     </ColContainer>
   )
 }

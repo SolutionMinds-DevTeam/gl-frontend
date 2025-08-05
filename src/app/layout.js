@@ -1,6 +1,7 @@
+
 import "./globals.css";
-import Header from "@/components/menu/Header";  
-import Footer from "@/components/menu/Footer";
+import ClientLayout from "@/components/layouts/ClientLayout";
+
 
 
 export const metadata = {
@@ -9,12 +10,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className="bg-[#EAF5F6]">
-        <Header/>
-          {children}
-        <Footer/>
+          <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

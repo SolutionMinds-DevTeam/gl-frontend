@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Image, imgFile } from '../ui/Image'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion' // optional if using framer-motion
+
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -16,10 +16,10 @@ function Header() {
         {/* Desktop menu */}
         <div className="hidden lg:flex gap-10 text-[#004571]">
           <Link href="/" className="hover:border-b-2 border-[#004571] pb-1 transition duration-300">Home</Link>
-          <Link href="/about" className="hover:border-b-2 border-[#004571] pb-1 transition duration-300">Pricing</Link>
+          <Link href="/price" className="hover:border-b-2 border-[#004571] pb-1 transition duration-300">Pricing</Link>
           <Link href="/about" className="hover:border-b-2 border-[#004571] pb-1 transition duration-300">Contact</Link>
           <Link href="/about" className="hover:border-b-2 border-[#004571] pb-1 transition duration-300">About</Link>
-          <Link href="/about" className="text-[#FF7802] hover:border-b-2 border-[#FF7802] pb-1 transition duration-300">Login</Link>
+          <Link href="/auth/login" className="text-[#FF7802] hover:border-b-2 border-[#FF7802] pb-1 transition duration-300">Login</Link>
         </div>
 
         {/* Menu icon (mobile) */}
@@ -38,10 +38,10 @@ function Header() {
         <h1 className="text-2xl font-bold tracking-wide">GROWW LIBRARY</h1>
 
         <Link href="/" onClick={() => setMenuOpen(false)} className="hover:underline">Home</Link>
-        <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:underline">Pricing</Link>
+        <Link href="/price" onClick={() => setMenuOpen(false)} className="hover:underline">Pricing</Link>
         <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:underline">Contact</Link>
         <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:underline">About</Link>
-        <Link href="/about" onClick={() => setMenuOpen(false)} className="text-[#FF7802] drop-shadow-md">Login</Link>
+        <Link href="/auth/login" onClick={() => setMenuOpen(false)} className="text-[#FF7802] drop-shadow-md">Login</Link>
       </div>
     </div>
   )
