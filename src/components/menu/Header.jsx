@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Image, imgFile } from '../ui/Image'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion' // optional if using framer-motion
+
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
