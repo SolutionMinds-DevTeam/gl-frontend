@@ -57,7 +57,7 @@ const page = () => {
 
           <ColContainer className='max-w-[340px]'>
             <p className='text-end text-[14px] pb-2'>Forget Password?</p>
-            <button className='bg-[#004571] outline-none text-[#FFFFFF] py-2.5 rounded-[8px]'>Login</button>
+            <button className='bg-[#004571] outline-none text-[#FFFFFF] py-2.5 rounded-[8px] cursor-pointer '>Login</button>
           </ColContainer>
 
           <Container className='max-w-[340px] items-center justify-center flex-nowrap gap-2'>
@@ -67,7 +67,7 @@ const page = () => {
           </Container>
 
           <ColContainer className='max-w-[340px]'>
-            <Container className='bg-[#004571] rounded-[8px] items-center justify-center gap-1'>
+            <Container className='bg-[#004571] rounded-[8px] items-center justify-center gap-1 cursor-pointer'>
               <Image src={imgFile.google} h='h-6.5' w='w-6.5'/>
               <p className='text-[#ffffff] text-[14px]'>Log In With Google</p>
             </Container>

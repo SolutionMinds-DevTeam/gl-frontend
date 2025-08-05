@@ -86,7 +86,7 @@ const page = () => {
           </ColContainer>
 
           <ColContainer className='max-w-[340px]'>
-            <button className='bg-[#004571] outline-none text-[#FFFFFF] text-[20px] py-2.5 rounded-[8px]'>Sign Up</button>
+            <button className='bg-[#004571] outline-none text-[#FFFFFF] text-[20px] py-2.5 rounded-[8px] cursor-pointer'>Sign Up</button>
           </ColContainer>
 
           <Container className='max-w-[340px] items-center justify-center gap-1'>
