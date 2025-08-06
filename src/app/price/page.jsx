@@ -1,5 +1,4 @@
-import Footer from '@/components/menu/Footer'
-import Header from '@/components/menu/Header'
+
 import { ColContainer, Container } from '@/components/ui/Container'
 import { Image, imgFile } from '@/components/ui/Image'
 import React from 'react'
@@ -20,7 +19,7 @@ const price = () => {
 
       <Container className='justify-center gap-15 pt-8'>
         <ColContainer className='bg-[#FFFFFF] !w-[320px] rounded-[16px]  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
-          <Container className='items-center gap-1 pl-15'>
+          <Container className='items-center gap-1 pl-18'>
             <Image src={imgFile.add1}/>
             <h4 className='text-[20px] font-bold'>Basic Plan</h4>
           </Container>
@@ -80,7 +79,7 @@ const price = () => {
         </ColContainer>
 
         <ColContainer className='bg-[#FFFFFF] !w-[320px] rounded-[16px]  hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer'>
-          <Container className='items-center gap-1 pl-15'>
+          <Container className='items-center gap-1 pl-20'>
             <Image src={imgFile.add2}/>
             <h4 className='text-[20px] font-bold'>Pro Plan</h4>
           </Container>
