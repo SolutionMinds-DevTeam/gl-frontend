@@ -22,6 +22,15 @@ import google from '../../../public/assets/Google.svg'
 import signuppageimage from '../../../public/assets/Signup page photo.svg'
 import intelligence from '../../../public/assets/Intelligence.svg'
 import back from '../../../public/assets/back.jpg'
+import landing from '../../../public/assets/Landing.svg'
+import landingphoneview from '../../../public/assets/LandingPhoneview.svg'
+import keyFeature from '../../../public/assets/KeyFeature.svg'
+import launchpadyellow from '../../../public/assets/LaunchpadYellow.svg'
+import piechart from '../../../public/assets/PieChart.svg'
+import secure from '../../../public/assets/Secure.svg'
+import sportStopwatch from '../../../public/assets/SportStopwatch.svg'
+import doublecot from '../../../public/assets/DoubleCot.svg'
+import ellipse from '../../../public/assets/Ellipse.svg'
 
 
 
@@ -47,6 +56,15 @@ const imgFile = {
   signuppageimage: signuppageimage,
   intelligence: intelligence,
   back: back,
+  landing: landing,
+  landingphoneview: landingphoneview,
+  keyFeature: keyFeature,
+  launchpadyellow: launchpadyellow,
+  piechart: piechart,
+  secure: secure,
+  sportStopwatch: sportStopwatch,
+  doublecot: doublecot,
+  ellipse: ellipse,
 
 }
 

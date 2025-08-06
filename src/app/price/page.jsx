@@ -1,5 +1,4 @@
-import Footer from '@/components/menu/Footer'
-import Header from '@/components/menu/Header'
+
 import { ColContainer, Container } from '@/components/ui/Container'
 import { Image, imgFile } from '@/components/ui/Image'
 import React from 'react'
